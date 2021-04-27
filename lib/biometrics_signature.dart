@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io';
 
 import 'package:flutter/services.dart';
 
@@ -7,6 +8,9 @@ class BiometricsSignature {
       const MethodChannel('biometrics_signature');
 
   static Future<String> get biometricsSignature async {
-    return await _channel.invokeMethod('getBiometricsSignature');
+    if (Platform.isIOS) {
+      return await _channel.invokeMethod('getBiometricsSignature');
+    }
+    return '';
   }
 }
