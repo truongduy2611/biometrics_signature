@@ -1,0 +1,22 @@
+PODS:
+  - biometrics_signature (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - biometrics_signature (from `.symlinks/plugins/biometrics_signature/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  biometrics_signature:
+    :path: ".symlinks/plugins/biometrics_signature/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  biometrics_signature: a79b5e7d684e33c1a435987df8259bb79483cb54
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.1
