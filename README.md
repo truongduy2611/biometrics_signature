@@ -1,5 +1,5 @@
 # biometrics_signature
 
-A project supports iOS Platform to get FaceID/TouchID signature hash.
+A plugin supports iOS Platform to get FaceID/TouchID signature hash.
 
 
